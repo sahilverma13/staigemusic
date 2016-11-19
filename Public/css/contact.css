@@ -1,0 +1,27 @@
+
+html *
+{
+	color: white;
+font-family: "Open Sans";
+font-style: normal;
+ font-variant: normal;
+ font-weight: 500;
+}
+
+* {margin: 0; padding: 0;}
+
+body {
+	background: black;
+}
+
+#co1{
+	top: 400px;
+	margin: 70px auto;
+}
+input, select, textarea{
+    color: grey;
+}
+
+textarea:focus, input:focus {
+    color: darkgrey;
+}

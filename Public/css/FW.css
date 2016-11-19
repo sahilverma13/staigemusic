@@ -1,0 +1,64 @@
+ html *
+{
+   color: white;
+font-family: "Open Sans";
+font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+}
+
+ section {
+  font-family: "Open Sans";
+        size: 200%;
+        border-radius: 1em;
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+
+gif {
+  position:fixed;
+  top:0;
+  left:24px;
+}
+
+
+#nav_container li{
+  list-style-type: none;
+  color: #EEE;
+
+
+}
+
+#footer {
+    position:fixed;
+    bottom:0;
+    font-family: "Open Sans";
+}
+
+#waves {
+  position:fixed;
+    bottom:0;
+}
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0acea2;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

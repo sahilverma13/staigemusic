@@ -1,0 +1,55 @@
+<html>
+<head><link rel="stylesheet" href="/css/contact.css">
+</head>
+<title>CONTACT STAIGE</title>
+<body bgcolor="white" txtcolor="black">
+<div id="co1">
+    <h1>CONTACT PAGE </h1>
+
+  <%- contentFor('hero') %>
+
+  <h1>CONTACT PAGE </h1>
+  <h1>CONTACT PAGE </h1>
+  <h1>CONTACT PAGE </h1>
+<form action="/contact" method="POST" >
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" name="name" class="form-control1" onclick="this.value='';"onfocus="this.select()"value="Enter name"
+       style="background-color:grey;
+              border: solid 1px #6E6E6E;
+              height: 20px;
+              font-size:18px;
+              color:black"
+               onfocus=clearField(this.value)>
+   </div>
+  <div class="form-group">
+    <label>E-mail</label>
+    <input type="text" name="email" class="form-control1"
+    onclick="this.value='';"onfocus="this.select()"
+   value="example@google.com"
+    style="background-color:grey;
+    border:solid 1px black;
+    height: 20px;
+    font-size:18px;
+    color:black"/
+     >
+  </div>
+  <div class="form-group">
+    <label>Message</label>
+    <input type="text" name="message" class="form-control1" onclick="this.value='';"onfocus="this.select()"value="Type your message here.."
+    style="background-color:grey; border:solid 1px black; height: 50px; font-size:18px;
+    color:black"  onfocus=clearField(this)>
+  </div>
+  <div class="form-group text-right">
+   <button type="submit"
+   class="btn btn-primary btn-1g"
+   style="background-color:grey;
+   border:solid 1px black;
+   height:30px; width:50px
+   font-size:18px;
+   color:black"> SEND </button>
+  </div>
+</div>
+
+</body>
+</html>
