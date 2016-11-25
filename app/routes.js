@@ -10,7 +10,7 @@ module.exports = router;
 
 //route for homepage
 router.get('/', function(req,res) {
-  res.render('pages/index');
+  res.render(__dirname + 'pages/index');
 });
 
 //route for about
